@@ -1,0 +1,116 @@
+/*-----------navbar--------------*/
+
+.home-navbar {
+	background: #F47A22;/*this will give background color on the navbar*/
+	color: white;
+	
+}
+
+li {
+	margin-left: 70px; /*this will give gap between the tabs on the navbar*/
+	padding-top: 0rem;
+	list-style-type: none;
+	display: inline-block;/* this will display the list items horizontally*/
+}
+
+.navbar-a {
+	color: white;
+	padding: 0%;
+	text-decoration: none;
+	z-index: 100;
+	
+}
+
+
+/*.container-fluid p-1{
+	grid-template-columns: auto auto auto;
+    width: 900px;
+    grid-gap: 20px;
+	padding:10px;
+	display:grid;
+	flex:none;
+	
+}*/
+
+
+.footer {
+	padding: 2rem 0;
+	position: float;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+}
+@media all and (max-width:991px) { /* this will not display the logo in mobile*/
+	.logo {
+		display:none;
+
+	}
+}
+	.buttonfreetrial {   /* these are the attributes of the button*/
+
+		background-color: #F47A22;
+		float: right;
+		border: none;
+		font-weight: bold;
+	}
+
+	.Bookbutton {
+		padding-top: -10px;
+		background-color: D9D9D9;
+		border: none;
+		position: relative;
+		font-weight: bold;
+
+	}
+
+	.Enquire {
+		background-color: #F47A22;
+		color: white;
+		float: center;
+		border: none;
+		font-weight: bold;
+
+
+	}
+
+	.Enquiryform{
+		margin-bottom: 10px;
+	}
+
+
+
+    .Submit{
+		margin-bottom: 10px;
+		background-color: #F47A22;
+		color: white;
+		float: center-left;
+		border: none;
+		font-weight: bold;
+		
+	}
+	
+	.Submitform{
+		margin-bottom: 10px;
+		
+		
+	}
+	
+.carousel > .carousel-inner > .carousel-item > img{
+    width:340px; /* you can change the width and height of the carousel*/
+    height:460px;
+}
+
+.h4{
+	float:center-right;
+	
+}
+
+.col-lg-8 {
+	background-color:D9D9D9;  /*background colour changed for class column-lg-8*/
+	
+}
+
+#team{
+	background-color:white;
+}
+
